@@ -5,3 +5,7 @@ def call(name) {
 def calculator(x,y){
   echo "${x} + ${y} is ${x+y}"
 }
+
+def maven_build(){
+  maven clean install
+}
